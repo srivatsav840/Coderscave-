@@ -1,12 +1,11 @@
-total_expenses =0
 li = []
 li2 = []
-n = int(input("enter no.of persons:",))
+n = int(input("Enter no.of persons:",))
 
 for i in range(n):
     print("Enter name:",end="")
     name = input()
-    expense = int(input("His/Her total amount:"))
+    expense = int(input("His/Her total spent amount:"))
     li.append(name)
     li2.append(expense)
 dic = dict(zip(li,li2))
@@ -15,7 +14,7 @@ d =0
 for i in dic:
     d = d+dic.get(i)
 print()
-print("total amount they spent:",d)
+print("Total amount they spent:",d)
 print()
 #splitting the amount they spent
 split = d/n
