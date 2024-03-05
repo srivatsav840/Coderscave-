@@ -18,7 +18,7 @@ print("Total amount they spent:",d)
 print()
 #splitting the amount they spent
 split = d/n
-print("Everyone has to pay:",split)
+print("Each person has to pay:",split)
 print()
 mny =0
 for i in dic:
